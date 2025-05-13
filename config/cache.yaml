@@ -1,0 +1,11 @@
+# 缓存策略配置模板
+# 是否启用无源模式（true/false）
+no_db_mode: true
+
+# 支持多表多字段配置
+cache:
+  - table: your_table
+    key_field: id           # 主键字段
+    fields: [field1, field2] # 需要缓存的字段
+    ttl: 600                # 缓存过期时间（秒）
+  # 可继续添加更多表的缓存配置 

@@ -1,0 +1,3 @@
+# pg-cache 基础依赖
+psycopg2-binary>=2.9.0  # PostgreSQL 驱动
+PyYAML>=6.0              # 配置文件解析 

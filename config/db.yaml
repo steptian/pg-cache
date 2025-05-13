@@ -1,0 +1,10 @@
+# PostgreSQL 数据库连接配置模板
+
+postgres:
+  host: localhost
+  port: 5432
+  user: your_username
+  password: your_password
+  database: your_database
+  minconn: 1   # 最小连接数
+  maxconn: 10  # 最大连接数 
